@@ -10,5 +10,5 @@ urlpatterns = patterns('',
 )
 
 urlpatterns += patterns('',
-    url(r'^catalog/$', 'ecomstore.preview.views.home'),
+    url(r'^catalog/$', 'preview.views.home'),
 )
