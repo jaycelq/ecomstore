@@ -68,7 +68,7 @@ DATABASES = {
 }
 
 TEMPLATE_DIRS = (
-    "/home/qiang/ecomstore/templates",
+    os.path.join(BASE_DIR, 'templates'),
 )
 
 # Internationalization
