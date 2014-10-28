@@ -62,6 +62,13 @@ div.cart_box a{
     color: white;
 }
 
+#navigation{
+  width:900px;
+  height:auto;
+  background-color:#98AC5E;
+  text-align:middle;
+}
+
 #sidebar{
     width: 200px;
     float: left;
