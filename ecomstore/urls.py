@@ -8,3 +8,7 @@ urlpatterns = patterns('',
 
     url(r'^admin/', include(admin.site.urls)),
 )
+
+urlpatterns += patterns('',
+    url(r'^catalog/$', 'ecomstore.preview.views.home'),
+)
