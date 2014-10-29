@@ -69,6 +69,27 @@ div.cart_box a{
   text-align:middle;
 }
 
+#navigation ul{
+    list-style: none;
+}
+
+#navigation ul li{
+    float: left;
+    margin-right: 15px;
+}
+
+#navigation ul li a{
+    color: White;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#navigation ul li a:hover{
+    color: #616161;
+    background-color: White;
+    text-decoration: none;
+}
+
 #sidebar{
     width: 200px;
     float: left;
