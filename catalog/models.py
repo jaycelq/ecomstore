@@ -27,6 +27,7 @@ class Category(models.Model):
     def get_absolute_url(self):
         return 'catalog_category', (), {'category_slug':self.slug}
 
+
 class Product(models.Model):
     name = models.CharField(max_length=255, unique=True)
     slug = models.CharField(max_length=255, unique=True,
@@ -58,8 +59,8 @@ class Product(models.Model):
         return self.name
 
     @models.permalink
-    def get_absolute_rul(self):
-        return 'catalog_product', (), { 'product':self.slug}
+    def get_absolute_url(self):
+        return 'catalog_product', (), {'product_slug': self.slug}
 
     def sale_price(self):
         if self.old_price > self.price:
