@@ -38,6 +38,7 @@ INSTALLED_APPS = (
     'preview',
     'catalog',
     'utils',
+    'cart',
 )
 
 MIDDLEWARE_CLASSES = (

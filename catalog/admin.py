@@ -20,6 +20,7 @@ class ProductAdmin(admin.ModelAdmin):
 
 admin.site.register(Product, ProductAdmin)
 
+
 class CategoryAdmin(admin.ModelAdmin):
     # set up values for how admin sites list categories
     list_display = ('name', 'created_at', 'updated_at',)

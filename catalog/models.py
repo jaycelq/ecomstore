@@ -25,7 +25,7 @@ class Category(models.Model):
 
     @models.permalink
     def get_absolute_url(self):
-        return 'catalog_category', (), {'category_slug':self.slug}
+        return 'catalog_category', (), {'category_slug': self.slug}
 
 
 class Product(models.Model):
